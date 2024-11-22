@@ -1,0 +1,25 @@
+.header-logo {
+    width: 150px;
+}
+
+.group-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    box-shadow: rgb(0, 0.5, .15) 1px 1px 10px 0px;
+}
+
+.group-header .group-navigation {
+    display: flex;
+    gap: 1rem;
+}
+
+.group-navigation .btn-navigation {
+    background-image:  linear-gradient(to right, #F0060B, #F0070C, #CC26D5, #7702FF);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
